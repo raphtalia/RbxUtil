@@ -1,0 +1,25 @@
+{
+	"name": "@rbxts/rbxutil-signal",
+	"version": "1.2.0",
+	"description": "Signal class",
+	"main": "init.lua",
+	"typings": "index.d.ts",
+	"keywords": [
+		"roblox",
+		"typescript"
+	],
+	"author": "Stephen Leitnick",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Sleitnick/RbxUtil"
+	},
+	"homepage": "https://sleitnick.github.io/RbxUtil/",
+	"files": [
+		"init.lua",
+		"index.d.ts"
+	]
+}

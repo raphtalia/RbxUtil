@@ -38,6 +38,7 @@ end
 	Defines a new Enum.
 ]=]
 local EnumList = {}
+EnumList.default = EnumList
 EnumList.__index = EnumList
 
 

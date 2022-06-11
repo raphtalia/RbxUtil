@@ -40,7 +40,7 @@ local function acquireRunnerThreadAndCallEventHandler(fn, ...)
 	freeRunnerThread = acquiredRunnerThread
 end
 
--- Coroutine runner that we create coroutines of. The coroutine can be 
+-- Coroutine runner that we create coroutines of. The coroutine can be
 -- repeatedly resumed with functions to run followed by the argument to run
 -- them with.
 local function runEventHandlerInFreeThread(...)
@@ -139,6 +139,7 @@ setmetatable(Connection, {
 	```
 ]=]
 local Signal = {}
+Signal.default = Signal
 Signal.__index = Signal
 
 --[=[
